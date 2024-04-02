@@ -1,0 +1,34 @@
+
+A dictionary is used to feed values into the model for predictions 
+a description of the features used are given below along with the dictionary format to be used 
+
+data = {
+    'A': 'First element',
+    'B': 'Second element',
+    'v(A)': 'Valency of A',
+    'v(B)': 'Valency of B',
+    'r(AXII)(Å)': 'Ionic radius of A in a coordination number of 12',
+    'r(AVI)(Å)': 'Ionic radius of A in a coordination number of 6',
+    'r(BVI)(Å)': 'Ionic radius of B in a coordination number of 6',
+    'EN(A)': 'Average electronegativity value of A cation',
+    'EN(B)': 'Average electronegativity value of B cation',
+    'l(A-O)(Å)': 'Length of bond between A and oxygen',
+    'l(B-O)(Å)': 'Length of bond between B and oxygen',
+    'ΔENR': 'Difference in electronegativity between A and B',
+    'tG': 'Tolerance factor',
+    'τ': 'Shape factor',
+    'μ': 'Dipole moment'
+}
+
+
+
+
+The elements A and B support the following elements and the dictionary can be altered accordingly  
+'Ba', 'Ta', 'Bi', 'As', 'Fe', 'Lu', 'K', 'Ru', 'Ti', 'Ni','Cd', 'Dy', 'Si', 
+'Sm', 'Te', 'U', 'Cu', 'Pa', 'Mn', 'Yb', 'Re', 'Tm', 'Ce', 'Mg', 'Cr', 'Tb',
+'Mo', 'Al', 'Nb', 'Pd', 'Sr', 'B', 'Ag', 'Tc', 'Zr', 'Cs', 'Ho', 'Li', 'Na', 
+'Pr', 'Zn', 'Ga', 'Th', 'Ac', 'Gd', 'Y', 'Pb', 'Ge', 'Be', 'Os', 'Pt', 'W', 
+'Au', 'Nd', 'Tl', 'Sb', 'V', 'Hf', 'La', 'Hg', 'Ca', 'Eu', 'In', 'Ir', 'Pm', 
+'Sn', 'Rb', 'Er', 'Rh', 'Np', 'Co', 'Pu', 'Sc'
+
+
